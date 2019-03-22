@@ -1,0 +1,35 @@
+#header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	display: flex;
+	background: mediumSeaGreen;
+	flex-direction:column;
+	padding: 1em;
+	font-family: sans-serif;
+}
+
+#Title {
+	padding:0.5em;
+	text-align:center;
+}
+
+#Links {
+	display:flex;
+	background:mediumSeaGreen;
+	flex-direction:row;
+	align-items:stretch;
+}
+
+#Links a {
+	color:black;
+	padding:0.5em;
+	margin: 0.25em;
+
+}
+
+#Links a:hover {
+	background: paleTurquoise;
+	
+}
